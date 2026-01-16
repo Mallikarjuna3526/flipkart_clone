@@ -1,0 +1,25 @@
+.gallery {
+  display: flex;
+}
+
+.thumbnail-list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.thumbnail-list img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.main-image img {
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+  border: 1px solid #ddd;
+}

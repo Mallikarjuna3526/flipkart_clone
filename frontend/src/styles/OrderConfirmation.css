@@ -1,0 +1,22 @@
+.FinalH{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    color: blue;
+}
+.Return{
+    display: flex;
+    justify-content: center;
+}
+.FinalB{
+
+  padding: 12px;
+  background: #fb641b;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 2px;
+}

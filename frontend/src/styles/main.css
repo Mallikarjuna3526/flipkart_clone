@@ -1,0 +1,31 @@
+body { font-family: Arial; margin: 0; }
+.navbar { padding: 10px; background: #2874f0; color: white; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; padding: 20px; }
+.card { border: 1px solid #ddd; padding: 10px; }
+.carousel img { width: 150px; margin: 5px; }
+
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 20px;
+}
+.add-cart {
+  background: #ff9f00;
+  border: none;
+  padding: 12px 20px;
+  margin-right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buy-now {
+  background: #fb641b;
+  border: none;
+  padding: 12px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+
